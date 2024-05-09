@@ -9,7 +9,7 @@ prefix is `<C-b>` (ctrl+b).
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 mkdir -p ~/.config/
-git clone https://github.com/srgsanky/tmux ~/.config/
+git clone https://github.com/srgsanky/tmux ~/.config/tmux
 ```
 
 Once in tmux, install plugins using `<prefix> I` (To update plugins use `<prefix> U`)

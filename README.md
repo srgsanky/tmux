@@ -1,5 +1,7 @@
 # tmux configuration
 
+prefix is `<C-b>` (ctrl+b).
+
 ## Initial setup
 
 ```bash
@@ -10,7 +12,7 @@ mkdir -p ~/.config/
 git clone https://github.com/srgsanky/tmux ~/.config/
 ```
 
-Once in tmux, install plugins using `prefix I` (To update plugins use `<prefix> U`)
+Once in tmux, install plugins using `<prefix> I` (To update plugins use `<prefix> U`)
 
 ## Updates to tmux.conf
 

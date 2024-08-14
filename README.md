@@ -2,6 +2,20 @@
 
 prefix is `<C-b>` (ctrl+b).
 
+## Install latest tmux
+
+Make sure you have tmux 3.5. Use `tmux -V` to list the version. If you have an older version, build and install the
+latest tmux.
+
+```bash
+sudo yum install -y libevent-devel ncurses-devel ncurses-libs
+
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure --prefix=/usr && make -j && sudo make install
+```
+
 ## Initial setup
 
 ```bash

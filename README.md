@@ -35,3 +35,11 @@ After editing tmux.conf, reload it using
 ```bash
 tmux source ~/.config/tmux/tmux.conf
 ```
+
+## Plugin management
+
+Remove unused plugins
+
+```bash
+~/.config/tmux/plugins/tpm/bin/clean_plugins
+```
